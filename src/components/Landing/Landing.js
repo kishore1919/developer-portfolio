@@ -77,7 +77,7 @@ function Landing() {
                                 <FaGithub className="landing--social" style={{color: theme.secondary}}/>
                             </a>
                         )}
-                        {socialsData.twitter && (
+                        {/* {socialsData.twitter && (
                             <a href={socialsData.twitter} target="_blank" rel="noreferrer">
                                 <FaTwitter className="landing--social" style={{color: theme.secondary}}/>
                             </a>
@@ -91,7 +91,7 @@ function Landing() {
                             <a href={socialsData.blogger} target="_blank" rel="noreferrer">
                                 <FaBlogger className="landing--social" style={{color: theme.secondary}}/>
                             </a>
-                        )}
+                        )} */}
                     </div>
                 </div>
                 <img src={headerData.image} alt="" className="landing--img" style={{ opacity: `${drawerOpen ? '0' : '1'}`, borderColor: theme.secondary}}/>

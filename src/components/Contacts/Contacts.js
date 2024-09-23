@@ -158,7 +158,7 @@ function Contacts() {
             <div className="contacts--container">
                 <h1 style={{color: theme.primary}}>Contacts</h1>
                 <div className="contacts-body">
-                    <div className="contacts-form">
+                    {/* <div className="contacts-form">
                         <form onSubmit={handleContactForm}>
                             <div className="input-container">
                                 <label htmlFor="Name"  className={classes.label}>Name</label>
@@ -208,7 +208,7 @@ function Contacts() {
                                 message={errMsg}
                             />
                         </Snackbar>
-                    </div>
+                    </div> */}
 
                     <div className="contacts-details">
                         <a href={`mailto:${contactsData.email}`} className="personal-details">
@@ -223,19 +223,19 @@ function Contacts() {
                             </div>
                             <p style={{color:theme.tertiary}}>{contactsData.phone}</p>
                         </a>
-                        <div className="personal-details">
+                        {/* <div className="personal-details">
                             <div className={classes.detailsIcon}>
                                 <HiOutlineLocationMarker />
                             </div>
                             <p style={{color:theme.tertiary}}>{contactsData.address}</p>
-                        </div>
+                        </div> */}
 
                         <div className="socialmedia-icons">
-                            {socialsData.twitter && (
+                            {/* {socialsData.twitter && (
                                 <a href={socialsData.twitter} target="_blank" rel="noreferrer" className={classes.socialIcon} >
                                     <FaTwitter />
                                 </a>
-                            )}
+                            )} */}
                             {socialsData.github && (
                                 <a href={socialsData.github} target="_blank" rel="noreferrer" className={classes.socialIcon} >
                                     <FaGithub />
@@ -246,22 +246,17 @@ function Contacts() {
                                     <FaLinkedinIn />
                                 </a>
                             )}
-                            {socialsData.instagram && (
-                                <a href={socialsData.instagram} target="_blank" rel="noreferrer" className={classes.socialIcon} >
-                                    <FaInstagram />
-                                </a>
-                            )}
                             {socialsData.medium && (
                                 <a href={socialsData.medium} target="_blank" rel="noreferrer" className={classes.socialIcon} >
                                     <FaMediumM />
                                 </a>
                             )}
-                            {socialsData.blogger && (
+                            {/* {socialsData.blogger && (
                                 <a href={socialsData.blogger} target="_blank" rel="noreferrer" className={classes.socialIcon} >
                                     <FaBloggerB />
                                 </a>
-                            )}
-                            {socialsData.youtube && (
+                            )} */}
+                            {/* {socialsData.youtube && (
                                 <a href={socialsData.youtube} target="_blank" rel="noreferrer" className={classes.socialIcon} >
                                     <FaYoutube />
                                 </a>
@@ -275,8 +270,8 @@ function Contacts() {
                                 <a href={socialsData.stackOverflow} target="_blank" rel="noreferrer" className={classes.socialIcon} >
                                     <FaStackOverflow />
                                 </a>
-                            )} 
-                            {socialsData.codepen && (
+                            )}  */}
+                            {/* {socialsData.codepen && (
                                 <a href={socialsData.codepen} target="_blank" rel="noreferrer" className={classes.socialIcon} >
                                     <FaCodepen />
                                 </a>
@@ -285,7 +280,7 @@ function Contacts() {
                                 <a href={socialsData.gitlab} target="_blank" rel="noreferrer" className={classes.socialIcon} >
                                     <FaGitlab />
                                 </a>
-                            )}          
+                            )}           */}
                         </div>
                     </div>
                 </div> 
