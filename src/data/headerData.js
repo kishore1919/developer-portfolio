@@ -4,7 +4,7 @@ import image from '../assets/png/kishore.jpg'
 export const headerData = {
     name: 'Kishore Selvaraj',
     title: "Site Reliability Engineer",
-    desciption:"There wasn't a bird in the sky, but that was not what caught her attention. It was the clouds. The deep green that isn't the color of clouds, but came with these. She knew what was coming and she hoped she was prepared. ",
+    desciption:"The only way to do great work is to love what you do. If you haven't found it yet, keep looking. Don't settle. - Steve Jobs",
     image: image,
     resumePdf: resume
 }

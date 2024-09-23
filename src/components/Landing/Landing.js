@@ -103,7 +103,7 @@ function Landing() {
 
                         <div className="lcr-buttonContainer">
                             {headerData.resumePdf && (
-                                <a href={headerData.resumePdf} download="resume" target="_blank" rel="noreferrer">
+                                <a href={headerData.resumePdf} download="kishore_selvaraj_cv" target="_blank" rel="noreferrer">
                                     <Button className={classes.resumeBtn}>Download CV</Button>
                                 </a>
                             )}
