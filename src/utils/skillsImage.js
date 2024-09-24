@@ -74,6 +74,11 @@ import unity from '../assets/svg/skills/unity.svg'
 import wolframalpha from '../assets/svg/skills/wolframalpha.svg'
 
 import canva from '../assets/svg/skills/canva.svg'
+import ansible from '../assets/svg/skills/ansible.svg'
+import kubernetes from '../assets/svg/skills/kubernetes.svg'
+import linux from '../assets/svg/skills/linux.svg'
+import terraform from '../assets/svg/skills/terraform.svg'
+
 
 
 export const skillsImage = (skill) => {
@@ -227,6 +232,14 @@ export const skillsImage = (skill) => {
             return wolframalpha;
         case 'canva':
             return canva;
+        case 'ansible':
+            return ansible;
+        case 'kubernetes':
+            return kubernetes;
+        case 'linux':
+            return linux;
+        case 'terraform':
+            return terraform;
         default:
             break;
     }

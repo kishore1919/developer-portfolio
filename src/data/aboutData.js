@@ -1,6 +1,6 @@
 export const aboutData = {
     title: "Who I am",
-    description1: "My name's Kishore Selvaraj. I'm a developer and Site Reliability Engineer. I'm based in Bangalore, India",
-    description2: "During the day I work as a lead developer at a local agency and in the evening I  work on freelance projects and utilize the time to built my own products. I spent my leisure hours writing articles and poetry. Right now I'm also trying a hand at machine learning and AI. I love to learn and explore new arenas.",
+    description1: "My name is Kishore Selvaraj, and I am a Site Reliability Engineer based in Bangalore, India",
+    description2: "During the day, I work as a Site Reliability Engineer (SRE) at Criterion Networks. In the evenings, I dedicate my time to developing personal projects and building my own products. In my leisure hours, I enjoy watching movies and anime, reading books, and traveling. Currently, I’m also diving into the fields of machine learning and artificial intelligence. I have a deep passion for learning and exploring new arenas.",
     image: 1
 }
